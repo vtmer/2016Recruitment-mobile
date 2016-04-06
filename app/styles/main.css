@@ -100,12 +100,16 @@ body {
 		border-bottom: 0;
 	}
 }
+
 .blue {
 	color: #6ec2fc;
 }
+
 h1 {
 	font-size: 5vw;
 }
+
+
 /*第一页*/
 
 #bg {
@@ -121,11 +125,8 @@ h1 {
 	width: 100%;
 }
 
-.maintitle {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.maintitle>img {
+	margin: 0 auto;
 }
 
 .maintitle img {
@@ -171,24 +172,27 @@ h1 {
 	text-align: center;
 	width: 100%;
 }
+
 #second-page #bg {
 	position: absolute;
 	width: 100%;
 	opacity: 0.2;
 	z-index: 0;
-	
 }
+
 #second-page header>h1 {
 	color: #6ec2fc;
 	font-family: "Microsoft YaHei";
 	font-size: 3rem;
 }
+
 #second-page article {
 	position: relative;
 	font-family: "宋体";
 	margin: 0 40px;
-	
 }
+
+
 /*第三页*/
 
 header h1 {
@@ -200,56 +204,78 @@ header h1 {
 	padding: 0.7rem 1rem;
 	border: 2px dashed #FFFFFF;
 }
+
 .mainarticle {
 	padding: 0 3rem;
 	color: white;
 	font-family: "宋体";
 }
+
 .mainarticle section {
 	margin: 4vw 0vw;
 }
+
 .mainarticle img {
 	width: 35%;
 	vertical-align: top;
 	margin-top: 5vw;
 }
+
 .mainarticle details {
 	width: 60%;
 	display: inline-block;
-	
 	padding-left: 3vw;
 	font-size: 3vw;
 }
+
+
 /*第四页*/
+
 #second-page-front {
 	width: auto;
 	height: 130px;
 	padding: 0 20px;
 }
+
+
 /*分割线*/
-.blockline{
-    padding: 0 0.4vw 0;
-    margin: 20px 0;
-    line-height: 1px;
-    border-left: 10vw solid #ddd;
-    border-right: 10vw solid #ddd;
-    text-align: center;
+
+.blockline {
+	padding: 0 0.4vw 0;
+	margin: 20px 0;
+	line-height: 1px;
+	border-left: 10vw solid #ddd;
+	border-right: 10vw solid #ddd;
+	text-align: center;
 }
+
+
 /*第六页*/
+
 #sign {
 	float: right;
 }
+
 #sixth-page section {
 	width: 100%;
 	margin-bottom: 50px;
 	display: flex;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: baseline;
 	align-items: baseline;
+	/* for uc */
+	display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-justify-content: center;
 	justify-content: center;
 }
+
 #sixth-page section img {
 	width: 30%;
 }
+
 #front {
 	box-sizing: border-box;
-  	padding: 0 3vw;
+	padding: 0 3vw;
 }
