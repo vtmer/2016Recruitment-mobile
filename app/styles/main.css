@@ -103,12 +103,13 @@ body {
 .blue {
 	color: #6ec2fc;
 }
-
+h1 {
+	font-size: 5vw;
+}
 /*第一页*/
 
-#first-page embed {
+#bg {
 	width: 100%;
-	height: inherit;
 	position: relative;
 	z-index: 1;
 }
@@ -218,6 +219,12 @@ header h1 {
 	
 	padding-left: 3vw;
 	font-size: 3vw;
+}
+/*第四页*/
+#second-page-front {
+	width: auto;
+	height: 130px;
+	padding: 0 20px;
 }
 /*分割线*/
 .blockline{
